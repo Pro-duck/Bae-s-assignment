@@ -12,16 +12,23 @@
         <button type="button" onclick="addonefunc()">
             Plus One
         </button>
-         
+        <br>
+       
         <h1>Total: 
             <a id="plusOne"> 0 </a>
         </h1>
-
+        <button id="reSet" type="button" onclick="resetfunc()">
+            Reset
+        </button>
+      
         <script>
             var plusOne = 0;
             function addonefunc() {
                 plusOne = plusOne+ 1;
                 document.getElementById("plusOne").innerHTML = plusOne;};
+       
+            function resetfunc() {
+            document.getElementById("plusOne").innerHTML = 0;};
         </script>
 </body>
 </html>
