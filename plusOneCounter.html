@@ -1,22 +1,22 @@
-<!DOCTYPE html> <!--크롬에 html의 버전을 전달. -->
-<html lang="en"> <!--어떤 언어로 작성되었는지를 알려줌. -->
+<!DOCTYPE html> 
+<html lang="en">
 
-<head> <!--본문에는 표시되지 않는 해당 문서에 대한 정보를 넣는 곳. -->
-    <title>plusOneCounter</title> <!--브라우저의 창이름에 표시되는 내용. -->
-    <script src="./plusOneCounter.js">  <!--plusOneCounter라는 외부 자바스크립트 파일을 불러다 사용할 것이라 알려주는 역할. -->
+<head> 
+    <title>plusOneCounter</title> 
+    <script src="./plusOneCounter.js"> 
     </script>
 </head>
-<body> <!--페이지에 실제로 표시되는 내용들이 들어갈 곳. -->
-        <button type="button" onclick="addonefunc()"> <!--화면에 표시된 plus One버튼을 클릭했을 때, plusOneCounter.js 파일 내의  addonefunc() 함수가 실행됨. -->
+<body> 
+        <button type="button" onclick="addonefunc()"> 
             Plus One
         </button>
-        <br> <!--한칸 띄우기. -->
+        <br> 
        
-        <h1>Total: <!--본문 내 첫번째 제목. -->
-            <a id="plusOne"> 0 </a> <!--<a>태그는 외부 파일인 plusOneCounter.js에게 여기야~라고 말해주는 역할 -->
+        <h1>Total: 
+            <id="plusOne"> 0 </id>
         </h1>
-        <button id="reSet" type="button" onclick="resetfunc()"> <!--화면에 표시된 Reset버튼을 클릭했을 때, plusOneCounter.js 파일 내의  resetfunc 함수가 실행됨.
--->
+        <button id="reSet" type="button" onclick="resetfunc()"> 
+
             Reset
         </button>
 </body>
